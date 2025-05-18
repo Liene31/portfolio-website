@@ -1,10 +1,20 @@
+html,
 body {
-  background-color: #141211;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
   margin: 0;
   padding: 0;
   color: #e28d8d;
   font-family: "Cinzel", serif;
   text-align: center;
+}
+
+.container {
+  background-color: #141211;
 }
 
 /* Typography */
@@ -77,9 +87,11 @@ button {
 /* Footer */
 
 footer {
-  padding-bottom: 0.438em; /* 7px */
+  background-color: #222222;
+  padding: 0.438em; /* 7px */
 }
 
 footer p {
   font-size: 0.688rem; /* 11px */
+  margin: 0.909em 0; /* 10px */
 }
