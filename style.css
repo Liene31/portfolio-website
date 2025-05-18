@@ -1,9 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background: #141211;
   color: #e28d8d;
   font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+.container {
+  background: #141211;
 }
 
 /* Typography */
@@ -13,22 +17,31 @@ h2 {
   font-family: "IM Fell English SC", serif;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
 header {
   background-color: #222222;
-  font-family: "Playfair Display", serif; /*This is for heading*/
 }
 
 /* Navigation */
 
 ul {
-  text-align: center;
   padding: 0.938em 30px; /* 15px */
   margin: 0;
 }
 
 li {
   list-style-type: none;
-
   padding: 5px 0;
 }
 
@@ -40,10 +53,37 @@ li a {
   text-decoration: none;
   color: #e28d8d;
   font-family: "Cinzel", serif;
-  font-size: 0.938rem; /* 15px */
+  font-size: 1.063rem; /* 17px */
 }
 
 img {
-  width: 200px;
+  width: 175px;
   border-radius: 50%;
+  border: 1px solid #e28d8d;
+}
+
+/* Button */
+
+button {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  background-color: #e28d8d;
+  border: none;
+  font-size: 0.938rem; /* 15px */
+  padding: 0.667em 2.5em; /* 10px 40px */
+  margin-bottom: 1.25em; /* 20px */
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  background-color: #222222;
+  padding: 0.438em; /* 7px */
+}
+
+footer p {
+  font-size: 0.688rem; /* 11px */
+  margin: 0.909em 0; /* 10px */
 }
