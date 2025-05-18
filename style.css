@@ -1,20 +1,16 @@
-/* body,
-html {
-  height: 100%;
-  width: 100%;
-} */
-
 body {
   margin: 0;
   padding: 0;
   background: #141211;
   color: #e28d8d;
-  font-family: "Lora", serif; /*This is for paraghraph*/
+  font-family: "Cinzel", serif;
 }
 
-.container {
-  width: 500px;
-  margin: 0 auto;
+/* Typography */
+
+h1,
+h2 {
+  font-family: "IM Fell English SC", serif;
 }
 
 header {
@@ -22,30 +18,32 @@ header {
   font-family: "Playfair Display", serif; /*This is for heading*/
 }
 
+/* Navigation */
+
 ul {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+  text-align: center;
+  padding: 0.938em 30px; /* 15px */
   margin: 0;
-  padding: 25px 0;
 }
 
 li {
   list-style-type: none;
-  font-size: 1.25rem;
+
+  padding: 5px 0;
 }
 
-a {
+li:not(:last-child) {
+  border-bottom: 1px dotted #e28d8d;
+}
+
+li a {
   text-decoration: none;
   color: #e28d8d;
-}
-
-main {
-  display: flex;
-  /* gap: 50px; */
+  font-family: "Cinzel", serif;
+  font-size: 0.938rem; /* 15px */
 }
 
 img {
   width: 200px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
