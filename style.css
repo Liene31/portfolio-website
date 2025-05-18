@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #141211;
 }
 
 body {
@@ -13,9 +14,8 @@ body {
   text-align: center;
 }
 
-.container {
-  background-color: #141211;
-}
+/* .container {
+} */
 
 /* Typography */
 
