@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  margin-top: 25px;
+  margin-top: 1.563em; /* 25px */
   flex: 1;
 }
 
@@ -74,6 +74,7 @@ img {
   width: 200px;
   border-radius: 50%;
   border: 1px solid #e28d8d;
+  margin: 1.25em 0; /* 20px */
 }
 
 /* Button */
